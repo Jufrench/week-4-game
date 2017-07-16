@@ -1,0 +1,50 @@
+body {
+	background-image: url("../../assests/images/space.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: gainsboro;
+
+}
+
+.background {
+	background-color: rgba(70, 130, 180, 0.4);
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-opacity: 0.2;
+	width: 650px;
+	margin: 10px;
+	align-content: center;
+}
+
+
+
+#instructions {
+	background-color: rgba(75, 0, 130, 0.4);
+	width: 200px;
+	border-style: solid;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+#list {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.jewel {
+	height: 110px;
+	width: 130px;
+	border-radius: 30px;
+	margin-right: -10px;
+	margin-left: -5px;
+}
+
+img {
+	-webkit-animation-duration: 3s;
+}
+
+#numberCountBox {
+	border-radius: 0px 0px 20px 20px;
+}
