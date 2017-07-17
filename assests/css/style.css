@@ -13,20 +13,18 @@ body, html {
 
 .background {
 	background-color: rgba(70, 130, 180, 0.4);
-	
-	
-	border-width: 1px;
 	background-opacity: 0.2;
 	width: 650px;
 	margin: 10px;
 	align-content: center;
+
 }
 
 
 
 #instructions {
 	background-color: rgba(75, 0, 130, 0.4);
-	width: 200px;
+	width: 250px;
 	font-size: 16px;
 	
 }
@@ -34,6 +32,7 @@ body, html {
 #list {
 	font-size: 16px;
 	line-height: 22px;
+	margin-right: 10px;
 }
 
 .jewel {

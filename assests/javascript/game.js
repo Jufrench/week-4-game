@@ -20,9 +20,6 @@ $(function(){
 // $(".jewel").on("click", function()a{
 // $(".jewel").addClass("animated pulse");
 // });
-$("#instructions").click(function() {
-	$("ul").show();
-})
 
 $("#jewel-1").on("click", function() {
 	$(this).removeClass("pulse");
@@ -96,6 +93,10 @@ function gameStart() {
 	currentCount = 0;
 	$("#number-count").html("Number Count: ");
 	$("ul").hide();
+	$("#instructions").click(function() {
+		$("ul").toggle();
+})
+
 }
 
 function checkWin(currentJewel){
