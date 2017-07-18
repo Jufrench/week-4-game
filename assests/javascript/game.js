@@ -21,9 +21,9 @@ $(function(){
 // $(".jewel").addClass("animated pulse");
 // });
 
-$("#jewel-1").on("click", function() {
-	$(this).removeClass("pulse");
+$("#jewel-1").click(function() {
 	$(this).addClass("animated pulse");
+	$(this).toggle("animated pulse");
 
 	// currentCount += oneJewel;
 	// $("#number-count").html("Number Count: " + currentCount);
