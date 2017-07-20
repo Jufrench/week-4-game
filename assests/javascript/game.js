@@ -22,8 +22,6 @@ $(function(){
 // });
 
 $("#jewel-1").click(function() {
-	$(this).addClass("animated pulse");
-	$(this).toggle("animated pulse");
 
 	// currentCount += oneJewel;
 	// $("#number-count").html("Number Count: " + currentCount);
@@ -44,20 +42,14 @@ $("#jewel-1").click(function() {
 })
 
 $("#jewel-2").on("click", function() {
-	$(this).removeClass("pulse");
-	$(this).addClass("animated pulse");
 	checkWin(twoJewel);
 })
 
 $("#jewel-3").on("click", function() {
-	$(this).removeClass("pulse");
-	$(this).addClass("animated pulse");
 	checkWin(threeJewel);
 })
 
 $("#jewel-4").on("click", function() {
-	$(this).removeClass("pulse");
-	$(this).addClass("animated pulse");
 	checkWin(fourJewel);
 })
 
