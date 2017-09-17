@@ -16,28 +16,8 @@ var losses = 0;
 $(function(){
 	gameStart();
 
-
-// $(".jewel").on("click", function()a{
-// $(".jewel").addClass("animated pulse");
-// });
-
 $("#jewel-1").click(function() {
 
-	// currentCount += oneJewel;
-	// $("#number-count").html("Number Count: " + currentCount);
-	// if (currentCount === randomNumber) {
-	// 	alert("You Win!");
-	// 	wins += 1;
-	// 	$("#htmlWins").html("Wins: " + wins);
-	// 	gameStart();
-	// }
-
-	// if (currentCount > randomNumber) {
-	// alert("You lose! Try again!");
-	// losses += 1;
-	// $("#htmlLosses").html("Losses: " + losses);
-	// gameStart();
-	// }
 	checkWin(oneJewel);
 })
 
@@ -72,7 +52,7 @@ function randomAllJewels() {
 	twoJewel = Math.floor(Math.random() * 12) + 1;
 	threeJewel = Math.floor(Math.random() * 12) + 1;
 	fourJewel = Math.floor(Math.random() * 12) + 1;
-	 
+
 }
 
 function generateRandomJewelNum() {
@@ -108,13 +88,3 @@ function checkWin(currentJewel){
 	gameStart();
 	}
 }
-
-
-
-
-
-
-
-
-
-
