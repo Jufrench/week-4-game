@@ -14,8 +14,9 @@ body, html {
 .background {
 	background-color: rgba(70, 130, 180, 0.4);
 	background-opacity: 0.2;
-	width: 650px;
-	margin: 10px;
+	/*width: 650px;
+	margin: 10px;*/
+	margin-top: 10px;
 	align-content: center;
 
 }
@@ -26,7 +27,7 @@ body, html {
 	background-color: rgba(75, 0, 130, 0.4);
 	width: 250px;
 	font-size: 16px;
-	
+
 }
 
 #list {
